@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바깥 여백</title>
+    <style>
+        div#div1 {
+            margin: 30px;
+            border: 1px solid #000;
+        }
+
+        div#div2 {
+            margin-top: 60px; /* 위 요소의 바깥 아래 여백이 겹치면 +되지 않는다 */
+            margin-bottom: 30px;
+            border: 1px solid red;
+        }
+
+        div#div3 {
+            margin: 30px 0; /* margin : 상하 좌우 */
+        }
+
+        div#div4 {
+            margin: 0 0 20 20; /* margin : 상 우 하 좌 */
+        }
+
+        div#div5 {
+            display: inline-block;
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-right: 30px;
+        }
+
+        div#div6 {
+            display: inline;
+            border: 1px solid black;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="div1">안녕하세요 div1입니다</div>
+        <div id="div2">안녕하세요 div2입니다</div>
+        <div id="div3">안녕하세요 div3입니다</div>
+        <div id="div4">안녕하세요 div4입니다</div>
+        <div id="div5">안녕하세요 div5입니다</div>
+        <div id="div6">안녕하세요 div6입니다</div>
+        <div id="div7">안녕하세요 div7입니다</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전체선택자</title>
+    <style>
+        * {
+            color: red;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        .a {
+            color: blue;
+        }
+
+        .b {
+            color: red;
+        }
+
+        #container {
+            border : 2px solid black;
+            background : red;
+            width: 400px;
+            height : 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>전체 선택자</h1>
+    <h2>전체 선택자</h2>
+    <div class="a">
+        파란색 글씨
+    </div>
+    <div class="a">
+        파란색 글씨
+        <div class="b">
+            빨간색 글씨
+        </div>
+    </div>
+    <div id="container"></div>
+    <div id="container"></div>
+</body>
+</html>
